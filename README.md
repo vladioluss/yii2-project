@@ -59,4 +59,5 @@ vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
 
+
 Open a console terminal, execute the `init` command and select **dev** as environment.
