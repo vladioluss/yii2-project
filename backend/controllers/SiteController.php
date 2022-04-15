@@ -1,8 +1,10 @@
 <?php
 
-namespace backend\controllers;
+namespace app\controllers;
 
 use common\models\LoginForm;
+
+
 use Yii;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
@@ -101,4 +103,5 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+
 }
