@@ -20,6 +20,7 @@ class AppAsset extends AssetBundle
         'css/magnific-popup.css',
         'css/nice-select.css',
         'css/owl.carousel.css',
+        'css/core-style.css'
         //'css/bootstrap.min.css'
     ];
 

@@ -3,7 +3,6 @@
 /** @var View $this */
 /** @var string $content */
 
-use common\widgets\Alert;
 use frontend\assets\AppAsset;
 use yii\bootstrap4\Html;
 use yii\web\View;
