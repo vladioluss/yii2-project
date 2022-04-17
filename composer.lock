@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d22b902b148b28298601ec014616fdf3",
+    "content-hash": "b2ade4865ed08d084ac6ae22540f90e2",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -93,7 +93,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/cebe/markdown/zipball/9bac5e971dd391e2802dca5400bbeacbaea9eb86",
                 "reference": "9bac5e971dd391e2802dca5400bbeacbaea9eb86",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -101,9 +100,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "lib-pcre": "*",
@@ -167,7 +163,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/lexer/zipball/c268e882d4dbdd85e36e4ad69e02dc284f89d229",
                 "reference": "c268e882d4dbdd85e36e4ad69e02dc284f89d229",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -175,9 +170,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.1 || ^8.0"
@@ -253,7 +245,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ee0db30118f661fb166bcffbf5d82032df484697",
                 "reference": "ee0db30118f661fb166bcffbf5d82032df484697",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -261,9 +252,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "doctrine/lexer": "^1.2",
@@ -331,7 +319,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
                 "reference": "12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -339,9 +326,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=5.2"
@@ -404,7 +388,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
                 "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -412,9 +395,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">= 7"
@@ -464,7 +444,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/8a5d5072dca8f48460fce2f4131fcc495eec654c",
                 "reference": "8a5d5072dca8f48460fce2f4131fcc495eec654c",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -472,9 +451,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "egulias/email-validator": "^2.0|^3.1",
@@ -550,7 +526,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/f1aed619e28cb077fc83fac8c4c0383578356e40",
                 "reference": "f1aed619e28cb077fc83fac8c4c0383578356e40",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -558,9 +533,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -643,7 +615,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/749045c69efb97c70d25d7463abba812e91f3a44",
                 "reference": "749045c69efb97c70d25d7463abba812e91f3a44",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -651,9 +622,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1",
@@ -740,7 +708,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/8590a5f561694770bdcd3f9b5c69dde6945028e8",
                 "reference": "8590a5f561694770bdcd3f9b5c69dde6945028e8",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -748,9 +715,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -834,7 +798,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/0abb51d2f102e00a4eefcf46ba7fec406d245825",
                 "reference": "0abb51d2f102e00a4eefcf46ba7fec406d245825",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -842,9 +805,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -927,7 +887,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/9a142215a36a3888e30d0a9eeea9766764e96976",
                 "reference": "9a142215a36a3888e30d0a9eeea9766764e96976",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -935,9 +894,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -1013,7 +969,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/e2223d4085e5612aa616635f8fcaf478607f62e8",
                 "reference": "e2223d4085e5612aa616635f8fcaf478607f62e8",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1021,9 +976,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
@@ -1145,7 +1097,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap4/zipball/e6d0e58f43d3910129d554ac183aac17f65be639",
                 "reference": "e6d0e58f43d3910129d554ac183aac17f65be639",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1153,9 +1104,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "npm-asset/bootstrap": "^4.3",
@@ -1255,7 +1203,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/94bb3f66e779e2774f8776d6e1bdeab402940510",
                 "reference": "94bb3f66e779e2774f8776d6e1bdeab402940510",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1263,9 +1210,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "composer-plugin-api": "^1.0 | ^2.0"
@@ -1341,7 +1285,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/7b7ec871b4a63c0abbcd10e1ee3fb5be22f8b340",
                 "reference": "7b7ec871b4a63c0abbcd10e1ee3fb5be22f8b340",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1349,9 +1292,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "swiftmailer/swiftmailer": "~6.0",
@@ -1438,7 +1378,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Behat/Gherkin/zipball/0bc8d1e30e96183e4f36db9dc79caead300beff4",
                 "reference": "0bc8d1e30e96183e4f36db9dc79caead300beff4",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1446,9 +1385,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "~7.2|~8.0"
@@ -1511,7 +1447,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Codeception/Codeception/zipball/15524571ae0686a7facc2eb1f40f600e5bbce9e5",
                 "reference": "15524571ae0686a7facc2eb1f40f600e5bbce9e5",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1519,9 +1454,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "behat/gherkin": "^4.4.0",
@@ -1619,7 +1551,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Codeception/lib-asserts/zipball/184231d5eab66bc69afd6b9429344d80c67a33b6",
                 "reference": "184231d5eab66bc69afd6b9429344d80c67a33b6",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1627,9 +1558,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "codeception/phpunit-wrapper": ">6.0.15 <6.1.0 | ^6.6.1 | ^7.7.1 | ^8.0.3 | ^9.0",
@@ -1683,7 +1611,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Codeception/lib-innerbrowser/zipball/31b4b56ad53c3464fcb2c0a14d55a51a201bd3c2",
                 "reference": "31b4b56ad53c3464fcb2c0a14d55a51a201bd3c2",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1691,9 +1618,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "codeception/codeception": "4.*@dev",
@@ -1753,7 +1677,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Codeception/module-asserts/zipball/59374f2fef0cabb9e8ddb53277e85cdca74328de",
                 "reference": "59374f2fef0cabb9e8ddb53277e85cdca74328de",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1761,9 +1684,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "codeception/codeception": "*@dev",
@@ -1820,7 +1740,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Codeception/module-filesystem/zipball/781be167fb1557bfc9b61e0a4eac60a32c534ec1",
                 "reference": "781be167fb1557bfc9b61e0a4eac60a32c534ec1",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1828,9 +1747,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "codeception/codeception": "^4.0",
@@ -1882,7 +1798,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Codeception/module-yii2/zipball/14269d059b8eaedf3d414a673907bd874cd4ed04",
                 "reference": "14269d059b8eaedf3d414a673907bd874cd4ed04",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1890,9 +1805,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "codeception/codeception": "^4.0",
@@ -1952,7 +1864,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Codeception/phpunit-wrapper/zipball/f41335f0b4dd17cf7bbc63e87943b3ae72a8bbc3",
                 "reference": "f41335f0b4dd17cf7bbc63e87943b3ae72a8bbc3",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1960,9 +1871,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.2",
@@ -2010,7 +1918,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Codeception/Stub/zipball/18a148dacd293fc7b044042f5aa63a82b08bff5d",
                 "reference": "18a148dacd293fc7b044042f5aa63a82b08bff5d",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2018,9 +1925,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.4 | ^8.0",
@@ -2058,7 +1962,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Codeception/Verify/zipball/fa0bb946b6d61279f461bcc5a677ac0ed5eab9b3",
                 "reference": "fa0bb946b6d61279f461bcc5a677ac0ed5eab9b3",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2066,9 +1969,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "codeception/phpunit-wrapper": ">6.0.15 <6.1.0 | ^6.6.1 | ^7.7.1 | ^8.0.4",
@@ -2113,7 +2013,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/instantiator/zipball/10dcfce151b967d20fde1b34ae6640712c3891bc",
                 "reference": "10dcfce151b967d20fde1b34ae6640712c3891bc",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2121,9 +2020,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.1 || ^8.0"
@@ -2193,7 +2089,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/d7f08a622b3346766325488aa32ddc93ccdecc75",
                 "reference": "d7f08a622b3346766325488aa32ddc93ccdecc75",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2201,9 +2096,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.1 || ^8.0",
@@ -2260,7 +2152,6 @@
         },
         {
             "name": "guzzlehttp/psr7",
-<<<<<<< HEAD
             "version": "2.1.0",
             "source": {
                 "type": "git",
@@ -2278,19 +2169,6 @@
                         "preferred": true
                     }
                 ]
-=======
-            "version": "2.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/psr7.git",
-                "reference": "c94a94f120803a18554c1805ef2e539f8285f9a2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/c94a94f120803a18554c1805ef2e539f8285f9a2",
-                "reference": "c94a94f120803a18554c1805ef2e539f8285f9a2",
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
@@ -2313,11 +2191,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-master": "2.1-dev"
-=======
-                    "dev-master": "2.2-dev"
->>>>>>> 1c6c48a (first commit)
                 }
             },
             "autoload": {
@@ -2379,11 +2253,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/guzzle/psr7/tree/2.1.0"
-=======
-                "source": "https://github.com/guzzle/psr7/tree/2.2.1"
->>>>>>> 1c6c48a (first commit)
             },
             "funding": [
                 {
@@ -2399,11 +2269,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2021-10-06T17:43:30+00:00"
-=======
-            "time": "2022-03-20T21:55:58+00:00"
->>>>>>> 1c6c48a (first commit)
         },
         {
             "name": "myclabs/deep-copy",
@@ -2417,7 +2283,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/14daed4296fae74d9e3201d2c4925d1acb7aa614",
                 "reference": "14daed4296fae74d9e3201d2c4925d1acb7aa614",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2425,9 +2290,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.1 || ^8.0"
@@ -2486,7 +2348,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phar-io/manifest/zipball/97803eca37d319dfa7826cc2437fc020857acb53",
                 "reference": "97803eca37d319dfa7826cc2437fc020857acb53",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2494,9 +2355,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "ext-dom": "*",
@@ -2556,7 +2414,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phar-io/version/zipball/4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
                 "reference": "4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2564,9 +2421,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.2 || ^8.0"
@@ -2617,7 +2471,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/1d01c49d4ed62f25aa84a747ad35d5a16924662b",
                 "reference": "1d01c49d4ed62f25aa84a747ad35d5a16924662b",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2625,9 +2478,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.2 || ^8.0"
@@ -2680,7 +2530,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/622548b623e81ca6d78b721c5e029f4ce664f170",
                 "reference": "622548b623e81ca6d78b721c5e029f4ce664f170",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2688,9 +2537,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "ext-filter": "*",
@@ -2747,7 +2593,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/77a32518733312af16a44300404e945338981de3",
                 "reference": "77a32518733312af16a44300404e945338981de3",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2755,9 +2600,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.2 || ^8.0",
@@ -2807,7 +2649,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpspec/php-diff/zipball/fc1156187f9f6c8395886fe85ed88a0a245d72e9",
                 "reference": "fc1156187f9f6c8395886fe85ed88a0a245d72e9",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2815,9 +2656,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "type": "library",
             "extra": {
@@ -2858,7 +2696,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpspec/prophecy/zipball/bbcd7380b0ebf3961ee21409db7b38bc31d69a13",
                 "reference": "bbcd7380b0ebf3961ee21409db7b38bc31d69a13",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2866,9 +2703,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "doctrine/instantiator": "^1.2",
@@ -2935,7 +2769,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/819f92bba8b001d4363065928088de22f25a3a48",
                 "reference": "819f92bba8b001d4363065928088de22f25a3a48",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2943,9 +2776,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "ext-dom": "*",
@@ -3018,7 +2848,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/42c5ba5220e6904cbfe8b1a1bda7c0cfdc8c12f5",
                 "reference": "42c5ba5220e6904cbfe8b1a1bda7c0cfdc8c12f5",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3026,9 +2855,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -3088,7 +2914,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
                 "reference": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3096,9 +2921,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=5.3.3"
@@ -3143,7 +2965,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/2454ae1765516d20c4ffe103d85a58a9a3bd5662",
                 "reference": "2454ae1765516d20c4ffe103d85a58a9a3bd5662",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3151,9 +2972,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -3212,7 +3030,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/a853a0e183b9db7eed023d7933a858fa1c8d25a3",
                 "reference": "a853a0e183b9db7eed023d7933a858fa1c8d25a3",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3220,9 +3037,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "ext-tokenizer": "*",
@@ -3282,7 +3096,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ef117c59fc4c54a979021b26d08a3373e386606d",
                 "reference": "ef117c59fc4c54a979021b26d08a3373e386606d",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3290,9 +3103,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "doctrine/instantiator": "^1.3.1",
@@ -3389,7 +3199,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
                 "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3397,9 +3206,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.4.0"
@@ -3452,7 +3258,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
                 "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3460,9 +3265,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.2.0"
@@ -3512,7 +3314,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
                 "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3520,9 +3321,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.0.0",
@@ -3577,7 +3375,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3585,9 +3382,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=5.3.0"
@@ -3640,7 +3434,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
                 "reference": "120b605dfeb996808c31b6477290a714d356e822",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3648,9 +3441,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=5.6"
@@ -3694,7 +3484,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/1de8cd5c010cb153fcd68b8d0f64606f523f7619",
                 "reference": "1de8cd5c010cb153fcd68b8d0f64606f523f7619",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3702,9 +3491,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=5.6"
@@ -3759,7 +3545,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/1071dfcef776a57013124ff35e1fc41ccd294758",
                 "reference": "1071dfcef776a57013124ff35e1fc41ccd294758",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3767,9 +3552,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1",
@@ -3843,7 +3625,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/14f72dd46eaf2f2293cbe79c93cc0bc43161a211",
                 "reference": "14f72dd46eaf2f2293cbe79c93cc0bc43161a211",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3851,9 +3632,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -3919,7 +3697,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/d47bbbad83711771f167c72d4e3f25f7fcc1f8b0",
                 "reference": "d47bbbad83711771f167c72d4e3f25f7fcc1f8b0",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3927,9 +3704,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -3992,7 +3766,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/0c32ea2e40dbf59de29f3b49bf375176ce7dd8db",
                 "reference": "0c32ea2e40dbf59de29f3b49bf375176ce7dd8db",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4000,9 +3773,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.0",
@@ -4079,7 +3849,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/de036ec91d55d2a9e0db2ba975b512cdb1c23921",
                 "reference": "de036ec91d55d2a9e0db2ba975b512cdb1c23921",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4087,9 +3856,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.2",
@@ -4153,7 +3919,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/e67f6d32ebd0c749cf9d1dbd9f226c727043cdf2",
                 "reference": "e67f6d32ebd0c749cf9d1dbd9f226c727043cdf2",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4161,9 +3926,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.0",
@@ -4220,7 +3982,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/object-reflector/zipball/9b8772b9cbd456ab45d4a598d2dd1a1bced6363d",
                 "reference": "9b8772b9cbd456ab45d4a598d2dd1a1bced6363d",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4228,9 +3989,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.0"
@@ -4285,7 +4043,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/367dcba38d6e1977be014dc4b22f47a484dac7fb",
                 "reference": "367dcba38d6e1977be014dc4b22f47a484dac7fb",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4293,9 +4050,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.0"
@@ -4358,7 +4112,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/31d35ca87926450c44eae7e2611d45a7a65ea8b3",
                 "reference": "31d35ca87926450c44eae7e2611d45a7a65ea8b3",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4366,9 +4119,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -4420,7 +4170,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/0150cfbc4495ed2df3872fb31b26781e4e077eb4",
                 "reference": "0150cfbc4495ed2df3872fb31b26781e4e077eb4",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4428,9 +4177,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.2"
@@ -4486,7 +4232,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/99732be0ddb3361e16ad77b68ba41efc8e979019",
                 "reference": "99732be0ddb3361e16ad77b68ba41efc8e979019",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4494,9 +4239,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=5.6"
@@ -4543,7 +4285,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/browser-kit/zipball/9590bd3d3f9fa2f28d34b713ed4765a8cc8ad15c",
                 "reference": "9590bd3d3f9fa2f28d34b713ed4765a8cc8ad15c",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4551,9 +4292,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^5.5.9|>=7.0.8",
@@ -4622,7 +4360,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/900275254f0a1a2afff1ab0e11abd5587a10e1d6",
                 "reference": "900275254f0a1a2afff1ab0e11abd5587a10e1d6",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4630,9 +4367,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.2.5",
@@ -4731,7 +4465,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/css-selector/zipball/b0a190285cd95cb019237851205b8140ef6e368e",
                 "reference": "b0a190285cd95cb019237851205b8140ef6e368e",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4739,9 +4472,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.2.5",
@@ -4797,7 +4527,6 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-<<<<<<< HEAD
             "version": "v3.0.0",
             "source": {
                 "type": "git",
@@ -4815,19 +4544,6 @@
                         "preferred": true
                     }
                 ]
-=======
-            "version": "v3.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
-                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=8.0.2"
@@ -4864,11 +4580,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.0"
-=======
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.1"
->>>>>>> 1c6c48a (first commit)
             },
             "funding": [
                 {
@@ -4884,11 +4596,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2021-11-01T23:48:49+00:00"
-=======
-            "time": "2022-01-02T09:55:41+00:00"
->>>>>>> 1c6c48a (first commit)
         },
         {
             "name": "symfony/dom-crawler",
@@ -4902,7 +4610,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/4e9215a8b533802ba84a3cc5bd3c43103e7a6dc3",
                 "reference": "4e9215a8b533802ba84a3cc5bd3c43103e7a6dc3",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4910,9 +4617,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1.3",
@@ -4986,7 +4690,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/dec8a9f58d20df252b9cd89f1c6c1530f747685d",
                 "reference": "dec8a9f58d20df252b9cd89f1c6c1530f747685d",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4994,9 +4697,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.2.5",
@@ -5081,7 +4781,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/7bc61cc2db649b4637d331240c5346dcc7708051",
                 "reference": "7bc61cc2db649b4637d331240c5346dcc7708051",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5089,9 +4788,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=8.0.2",
@@ -5170,7 +4866,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/finder/zipball/231313534dded84c7ecaa79d14bc5da4ccb69b7d",
                 "reference": "231313534dded84c7ecaa79d14bc5da4ccb69b7d",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5178,9 +4873,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.2.5",
@@ -5243,7 +4935,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/30885182c981ab175d4d034db0f6f469898070ab",
                 "reference": "30885182c981ab175d4d034db0f6f469898070ab",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5251,9 +4942,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -5335,7 +5023,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/81b86b50cf841a64252b439e738e97f4a34e2783",
                 "reference": "81b86b50cf841a64252b439e738e97f4a34e2783",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5343,9 +5030,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -5426,7 +5110,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/cc5db0e22b3cb4111010e48785a97f670b350ca5",
                 "reference": "cc5db0e22b3cb4111010e48785a97f670b350ca5",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5434,9 +5117,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -5515,7 +5195,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/4407588e0d3f1f52efb65fbe92babe41f37fe50c",
                 "reference": "4407588e0d3f1f52efb65fbe92babe41f37fe50c",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5523,9 +5202,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.1"
@@ -5608,7 +5284,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/service-contracts/zipball/e517458f278c2131ca9f262f8fbaf01410f2c65c",
                 "reference": "e517458f278c2131ca9f262f8fbaf01410f2c65c",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5616,9 +5291,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=8.0.2",
@@ -5700,7 +5372,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/string/zipball/522144f0c4c004c80d56fa47e40e17028e2eefc2",
                 "reference": "522144f0c4c004c80d56fa47e40e17028e2eefc2",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5708,9 +5379,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=8.0.2",
@@ -5795,7 +5463,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/e80f87d2c9495966768310fc531b487ce64237a2",
                 "reference": "e80f87d2c9495966768310fc531b487ce64237a2",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5803,9 +5470,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": ">=7.2.5",
@@ -5880,7 +5544,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/theseer/tokenizer/zipball/34a41e998c2183e22995f158c581e7b5e755ab9e",
                 "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5888,9 +5551,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "ext-dom": "*",
@@ -5940,7 +5600,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/webmozarts/assert/zipball/6964c76c7804814a842473e0c8fd15bab0f18e25",
                 "reference": "6964c76c7804814a842473e0c8fd15bab0f18e25",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5948,9 +5607,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "php": "^7.2 || ^8.0",
@@ -6008,7 +5664,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/84d20d738b0698298f851fcb6fc25e748d759223",
                 "reference": "84d20d738b0698298f851fcb6fc25e748d759223",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6016,9 +5671,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "ext-mbstring": "*",
@@ -6108,7 +5760,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/8c361657143bfaea58ff7dcc9bf51f1991a46f5d",
                 "reference": "8c361657143bfaea58ff7dcc9bf51f1991a46f5d",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6116,9 +5767,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "fakerphp/faker": "~1.9|~1.10",
@@ -6200,7 +5848,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/80893fc4c0df97f3638938948bf34ca43dd8bff6",
                 "reference": "80893fc4c0df97f3638938948bf34ca43dd8bff6",
-<<<<<<< HEAD
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6208,9 +5855,6 @@
                         "preferred": true
                     }
                 ]
-=======
-                "shasum": ""
->>>>>>> 1c6c48a (first commit)
             },
             "require": {
                 "phpspec/php-diff": "^1.1.0",
@@ -6288,7 +5932,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.0"
+        "php": ">=7.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
