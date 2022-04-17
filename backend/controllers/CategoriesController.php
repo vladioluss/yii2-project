@@ -3,16 +3,15 @@
 namespace app\controllers;
 
 use app\models\Category;
-use app\models\Products;
-use app\models\ProductsSearch;
+use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * ProductsController implements the CRUD actions for Products model.
+ * CategoriesController implements the CRUD actions for Categories model.
  */
-class ProductsController extends Controller
+class CategoriesController extends Controller
 {
     /**
      * @inheritDoc
@@ -33,23 +32,33 @@ class ProductsController extends Controller
     }
 
     /**
-     * Lists all Products models.
+     * Lists all Categories models.
      *
      * @return string
      */
     public function actionIndex()
     {
-        $searchModel = new ProductsSearch();
-        $dataProvider = $searchModel->search($this->request->queryParams);
+        $dataProvider = new ActiveDataProvider([
+            'query' => Category::find(),
+            /*
+            'pagination' => [
+                'pageSize' => 50
+            ],
+            'sort' => [
+                'defaultOrder' => [
+                    'id' => SORT_DESC,
+                ]
+            ],
+            */
+        ]);
 
         return $this->render('index', [
-            'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
     }
 
     /**
-     * Displays a single Products model.
+     * Displays a single Categories model.
      * @param int $id ID
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
@@ -62,13 +71,13 @@ class ProductsController extends Controller
     }
 
     /**
-     * Creates a new Products model.
+     * Creates a new Categories model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
      */
     public function actionCreate()
     {
-        $model = new Products();
+        $model = new Categories();
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
@@ -84,7 +93,7 @@ class ProductsController extends Controller
     }
 
     /**
-     * Updates an existing Products model.
+     * Updates an existing Categories model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param int $id ID
      * @return string|\yii\web\Response
@@ -104,7 +113,7 @@ class ProductsController extends Controller
     }
 
     /**
-     * Deletes an existing Products model.
+     * Deletes an existing Categories model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param int $id ID
      * @return \yii\web\Response
@@ -118,15 +127,15 @@ class ProductsController extends Controller
     }
 
     /**
-     * Finds the Products model based on its primary key value.
+     * Finds the Categories model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param int $id ID
-     * @return Products the loaded model
+     * @return Categories the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Products::findOne(['id' => $id])) !== null) {
+        if (($model = Category::findOne(['id' => $id])) !== null) {
             return $model;
         }
 

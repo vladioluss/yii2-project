@@ -1,6 +1,7 @@
 <?php
 
 use app\models\Products;
+
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
@@ -10,7 +11,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\ProductsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Товары';
+$this->title = 'Продукт';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="products-index">
