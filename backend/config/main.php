@@ -9,7 +9,7 @@ $params = array_merge(
 return [
     'id' => 'app-backend',
     'basePath' => dirname(__DIR__),
-    'controllerNamespace' => 'backend\controllers',
+    'controllerNamespace' => 'app\controllers', //backend\
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
@@ -37,14 +37,15 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+
             ],
         ],
-        */
+
     ],
     'params' => $params,
 ];
