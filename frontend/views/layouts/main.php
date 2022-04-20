@@ -59,9 +59,7 @@ AppAsset::register($this);
                             ['label' => 'О нас', 'url' => ['about']]
                         ],
                         'submenuTemplate' => "\n<ul class='dropdown' >\n{items}\n</ul>\n",
-                        'activeCssClass'=>'active',
-                        //'firstItemCssClass'=>'fistItemMenu',
-                        //'lastItemCssClass' =>'lastItemMenu',
+                        'activeCssClass'=>'active'
                     ]);
                     ?>
                 </div>
@@ -83,13 +81,13 @@ AppAsset::register($this);
                 <!-- User Login Info -->
                 <?php
                 if (Yii::$app->user->isGuest) {
-                    echo '<a href="/signup"><img src="img/core-img/user.svg" alt=""></a>';
+                    echo '<a href="/signup"><img src="/img/core-img/user.svg" alt=""></a>';
                 } else {
-                    echo '<a href="/logout"><img src="img/core-img/user.svg" alt=""></a>';
+                    echo '<a href="/logout"><img src="/img/core-img/user.svg" alt=""></a>';
                 } ?>
             </div>
             <div class="cart-area">
-                <a href="#" id="essenceCartBtn"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+                <a href="#" id="essenceCartBtn"><img src="/img/core-img/bag.svg" alt=""> <span>3</span></a>
             </div>
         </div>
 
@@ -104,7 +102,7 @@ AppAsset::register($this);
 
     <!-- Cart Button -->
     <div class="cart-button">
-        <a href="#" id="rightSideCart"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+        <a href="#" id="rightSideCart"><img src="/img/core-img/bag.svg" alt=""> <span>3</span></a>
     </div>
 
     <div class="cart-content d-flex">
@@ -114,7 +112,7 @@ AppAsset::register($this);
             <!-- Single Cart Item -->
             <div class="single-cart-item">
                 <a href="#" class="product-image">
-                    <img src="img/product-img/product-1.jpg" class="cart-thumb" alt="">
+                    <img src="/img/product-img/product-1.jpg" class="cart-thumb" alt="">
                     <!-- Cart Item Desc -->
                     <div class="cart-item-desc">
                         <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -130,7 +128,7 @@ AppAsset::register($this);
             <!-- Single Cart Item -->
             <div class="single-cart-item">
                 <a href="#" class="product-image">
-                    <img src="img/product-img/product-2.jpg" class="cart-thumb" alt="">
+                    <img src="/img/product-img/product-2.jpg" class="cart-thumb" alt="">
                     <!-- Cart Item Desc -->
                     <div class="cart-item-desc">
                         <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -146,7 +144,7 @@ AppAsset::register($this);
             <!-- Single Cart Item -->
             <div class="single-cart-item">
                 <a href="#" class="product-image">
-                    <img src="img/product-img/product-3.jpg" class="cart-thumb" alt="">
+                    <img src="/img/product-img/product-3.jpg" class="cart-thumb" alt="">
                     <!-- Cart Item Desc -->
                     <div class="cart-item-desc">
                         <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>

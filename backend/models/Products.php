@@ -1,8 +1,11 @@
 <?php
 
-namespace app\models;
+namespace backend\models;
 
-use Yii;
+use app\models\Imgs;
+use backend\models\Category;
+
+use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;
 
 /**
@@ -19,7 +22,7 @@ use yii\db\ActiveRecord;
  * @property Category $category0
  * @property Imgs $img0
  */
-class Products extends \yii\db\ActiveRecord
+class Products extends ActiveRecord
 {
     /**
      * {@inheritdoc}
@@ -63,20 +66,20 @@ class Products extends \yii\db\ActiveRecord
     /**
      * Gets query for [[Category0]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getCategory0()
     {
-        return $this->hasOne(Category::className(), ['id' => 'category']);
+        return $this->hasOne(Category::class, ['id' => 'category']);
     }
 
     /**
      * Gets query for [[Img0]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getImg0()
     {
-        return $this->hasOne(Imgs::className(), ['id' => 'img']);
+        return $this->hasOne(Imgs::class, ['id' => 'img']);
     }
 }

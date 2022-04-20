@@ -2,10 +2,13 @@
 
 namespace frontend\controllers;
 
+use backend\models\Products;
+
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
 use yii\base\InvalidArgumentException;
+use yii\data\Pagination;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -258,6 +261,6 @@ class SiteController extends Controller
     }
 
     public function actionTest() {
-        return $this->render('test');
+
     }
 }
