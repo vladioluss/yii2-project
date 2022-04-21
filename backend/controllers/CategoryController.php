@@ -1,8 +1,8 @@
 <?php
 
-namespace app\controllers;
+namespace backend\controllers;
 
-use backend\models\Category;
+use common\models\Category;
 
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;

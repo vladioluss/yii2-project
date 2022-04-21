@@ -1,6 +1,6 @@
 <?php
 
-use app\models\Imgs;
+use common\models\Imgs;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;

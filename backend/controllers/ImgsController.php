@@ -1,8 +1,8 @@
 <?php
 
-namespace app\controllers;
+namespace backend\controllers;
 
-use app\models\Imgs;
+use common\models\Imgs;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
