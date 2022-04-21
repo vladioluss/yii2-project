@@ -2,7 +2,7 @@
 
 namespace backend\controllers;
 
-use backend\models\Products;
+use common\models\Products;
 use app\models\ProductsSearch;
 
 use yii\web\Controller;
