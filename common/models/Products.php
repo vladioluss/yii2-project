@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\models;
+namespace common\models;
 
 use app\models\Imgs;
 use backend\models\Category;

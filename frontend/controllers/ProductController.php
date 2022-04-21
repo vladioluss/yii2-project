@@ -3,7 +3,7 @@
 namespace frontend\controllers;
 
 use backend\models\Category;
-use backend\models\Products;
+use common\models\Products;
 use yii\data\Pagination;
 
 class ProductController extends \yii\web\Controller
@@ -30,8 +30,11 @@ class ProductController extends \yii\web\Controller
     }
 
     public function actionView($id) {
-        $query = Products::findOne($id)->where('');
-        echo json_encode($query);
+        $model = Products::findOne(['id' => $id]);
+
+        return $this->render('view', [
+            'model' => $model
+        ]);
     }
 
 }

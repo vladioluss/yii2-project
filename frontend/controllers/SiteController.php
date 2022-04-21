@@ -2,7 +2,7 @@
 
 namespace frontend\controllers;
 
-use backend\models\Products;
+use common\models\Products;
 
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
@@ -260,7 +260,17 @@ class SiteController extends Controller
         ]);
     }
 
-    public function actionTest() {
+    public function actionSearch($query) {
+        $items = Products::find()
+            ->where(['like', 'name', $query])
+            ->all()
+            /*->createCommand()
+            ->getRawSql()*/;
+        //var_dump($items);
+        //die;
 
+        return $this->render('search', [
+            'items' => $items
+        ]);
     }
 }

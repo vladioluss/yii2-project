@@ -1,15 +1,12 @@
 <?php
 
-/** @var \yii\web\View $this */
-/** @var string $content */
-
-
-use frontend\assets\AppAsset;
-use yii\bootstrap4\Html;
-
 /** @var View $this */
 /** @var string $content */
 
+use frontend\assets\AppAsset;
+
+use yii\bootstrap4\Html;
+use yii\helpers\Url;
 use yii\web\View;
 use yii\widgets\Menu;
 
@@ -48,7 +45,7 @@ AppAsset::register($this);
                     echo Menu::widget([
                         'items' => [
                             ['label' => 'Каталог',
-                                'url' => ['catalog'],
+                                'url' => [Url::to('/product')],
                                 'options'=> ['class'=>'cn-dropdown-item has-down pr12'],
                                 'template' => '<a href="{url}">{label}</a>',
                                 'items' => [
@@ -71,8 +68,8 @@ AppAsset::register($this);
         <div class="header-meta d-flex clearfix justify-content-end">
             <!-- Search Area -->
             <div class="search-area">
-                <form action="#" method="post">
-                    <input type="search" name="search" id="headerSearch" placeholder="Type for search">
+                <form action="/site/search" method="get">
+                    <input type="search" name="query" id="headerSearch" placeholder="Type for search">
                     <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </form>
             </div>
