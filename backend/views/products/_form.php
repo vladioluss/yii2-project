@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Products */
+/* @var $model common\models\Products */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -20,9 +20,14 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'price')->textInput() ?>
 
-    <?= $form->field($model, 'img')->textInput() ?>
+    <?= $form->field($model, 'img[]')->fileInput(['multiple' => 'multiple']);?>
 
-    <?= $form->field($model, 'status')->textInput() ?>
+    <?= $form->field($model, 'status')
+        ->dropDownList([
+            '1' => 'Активно',
+            '0' => 'Не активно'
+        ]);
+    ?>
 
     <div class="form-group">
         <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>

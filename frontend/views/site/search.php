@@ -1,8 +1,9 @@
 <?php
 /* @var $this yii\web\View */
+?>
 
-
-foreach ($items as $item) { ?>
+<h1 class="text-center">Поиск товаров</h1>
+<?php foreach ($items as $item) { ?>
     <ul>
         <li><a href="/product/<?=$item->id?>"><?=$item->name?></a></li>
     </ul>

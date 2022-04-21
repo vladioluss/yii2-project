@@ -1,6 +1,7 @@
 <?php
 
-use app\models\Category;
+use common\models\Category;
+
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
