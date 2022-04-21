@@ -1,7 +1,5 @@
 <?php
-
-use app\models\Products;
-
+use common\models\Products;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;

@@ -2,8 +2,8 @@
 
 namespace common\models;
 
-use app\models\Imgs;
-use backend\models\Category;
+use common\models\Imgs;
+use common\models\Category;
 
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;

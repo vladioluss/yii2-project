@@ -264,6 +264,7 @@ class SiteController extends Controller
         $items = Products::find()
             ->where(['like', 'name', $query])
             ->all()
+            //TODO:перенести в модель
             /*->createCommand()
             ->getRawSql()*/;
         //var_dump($items);
