@@ -1,5 +1,7 @@
 <?php
 
+use common\models\Category;
+use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -16,7 +18,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'category')->textInput() ?>
+    <?php
+    $form = ActiveForm::begin();
+        $products = Category::find()->all();
+        $items = ArrayHelper::map($products,'id','name');
+        echo $form->field($model, 'category')->dropDownList($items);
+    ActiveForm::end();
+    ?>
 
     <?= $form->field($model, 'price')->textInput() ?>
 
