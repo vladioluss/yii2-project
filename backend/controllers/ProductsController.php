@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use backend\models\ProductsForm;
 use common\models\Products;
 use app\models\ProductsSearch;
 
@@ -70,10 +71,15 @@ class ProductsController extends Controller
     public function actionCreate()
     {
         $model = new Products();
+        $modelForm = new ProductsForm();
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
                 return $this->redirect(['view', 'id' => $model->id]);
+            }
+
+            if ($image = UploadedFile::getInstance($modelForm, 'imgs')) {
+                $model->imgs = $modelForm->uploadImage($image);
             }
         } else {
             $model->loadDefaultValues();
@@ -81,6 +87,7 @@ class ProductsController extends Controller
 
         return $this->render('create', [
             'model' => $model,
+            'modelForm' => $modelForm
         ]);
     }
 
@@ -134,21 +141,4 @@ class ProductsController extends Controller
         throw new NotFoundHttpException('The requested page does not exist.');
     }
 
-
-    public function actionUploadImg() {
-        $model = new UploadImgs();
-
-        var_dump("экшен");
-        die();
-
-        if (\Yii::$app->request->isPost) {
-            $model->image = UploadedFile::getInstances($model, 'image');
-
-            if ($model->uploadImage()) {
-                return;
-            }
-        }
-
-        return $this->render('create', ['model' => $model]);
-    }
 }

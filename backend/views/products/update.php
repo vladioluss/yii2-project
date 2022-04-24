@@ -1,9 +1,11 @@
 <?php
 
+use backend\models\ProductsForm;
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Products */
+/* @var $model common\models\Products */
+/* @var $modelForm ProductsForm */
 
 $this->title = 'Обновить продукт: ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Products', 'url' => ['index']];
@@ -16,6 +18,7 @@ $this->params['breadcrumbs'][] = 'Update';
 
     <?= $this->render('_form', [
         'model' => $model,
+        'modelForm' => $modelForm
     ]) ?>
 
 </div>

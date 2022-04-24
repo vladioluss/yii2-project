@@ -2,8 +2,10 @@
 
 namespace common\models;
 
+use backend\models\ProductsForm;
 use common\models\Category;
 
+use Yii;
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;
 
@@ -85,13 +87,30 @@ class Products extends ActiveRecord
         return $this->hasOne(Imgs::class, ['id' => 'img']);
     }
 
+    //Выводит все товары
+    public static function getAllProducts()
+    {
+        //return Products::find()->with('category0')->where(['status' => 1]);
+    }
 
-    public function uploadImage() {
-        die('Зашло в метод');
+    //Загрузка изображений
+    public function getImagePath() {
+        if ($this->img)
+            return $this->getImage($this->img);
+        return 'https://via.placeholder.com/300x200'; //placeholder image
+    }
 
-        foreach ($this->image as $file) {
-            $fileName = \Yii::$app->getSecurity()->generateRandomString(15);
-            $file->saveAs('imgs/'.$fileName.'.'.$file->extension);
-        }
+    private function getImage(string $filename) {
+        return Yii::$app->params['uploadHostInfo'] . 'imgs/' . $filename;
+    }
+
+    public function beforeDelete() {
+        $this->deleteImage();
+        return parent::beforeDelete();
+    }
+
+    public function deleteImage() {
+        $form = new ProductsForm();
+        $form->deleteCurrentImage($this->img);
     }
 }

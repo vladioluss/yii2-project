@@ -1,14 +1,21 @@
 <?php
 
+use common\models\Products;
 use yii\helpers\Html;
 use yii\web\YiiAsset;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\Products */
+/* @var $model common\models\Products */
 
 $this->params['breadcrumbs'][] = ['label' => 'Просмотр ', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 YiiAsset::register($this);
+?>
+
+<?php
+/*function (Products $model) {
+    return var_dump($model->getImagePath());
+}*/
 ?>
 
 <!-- ##### Single Product Details Area Start ##### -->
@@ -17,16 +24,14 @@ YiiAsset::register($this);
     <!-- Single Product Thumb -->
     <div class="single_product_thumb clearfix">
         <div class="product_thumbnail_slides owl-carousel">
-            <img src="/img/product-img/product-big-1.jpg" alt="">
-            <img src="/img/product-img/product-big-2.jpg" alt="">
-            <img src="/img/product-img/product-big-3.jpg" alt="">
+            <img src="<?= $model->getImagePath() ?>" alt="<?= $model->name ?>">
         </div>
     </div>
 
     <!-- Single Product Description -->
     <div class="single_product_desc clearfix">
         <span><?= $model->category0->name; ?></span>
-        <a href="cart.html">
+        <a href="">
             <h2><?= $model->name; ?></h2>
         </a>
         <p class="product-price"><span class="old-price">$65.00</span> $<?= $model->price; ?></p>

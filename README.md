@@ -65,4 +65,4 @@ Open a console terminal, execute the `init` command and select **dev** as enviro
 
 Set _apache/nginx_ settings for open on http://backend.test/ and http://frontend.test/ or you're own settings.
 
-List admin routes: /products, /category, /imgs
+List admin routes: /products, /category

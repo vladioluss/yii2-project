@@ -20,7 +20,8 @@ class ProductController extends Controller
 
         $productCount = Products::find()->where(['status' => 1])->count();
         $categories = Category::find()->where(['status' => 1])->all();
-        //echo json_encode($model);
+
+        //$model = Products::getAllProducts();
 
         return $this->render('index', [
             'model' => $model,
