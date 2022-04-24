@@ -5,8 +5,9 @@ namespace frontend\controllers;
 use common\models\Category;
 use common\models\Products;
 use yii\data\Pagination;
+use yii\web\Controller;
 
-class ProductController extends \yii\web\Controller
+class ProductController extends Controller
 {
     public function actionIndex()
     {
@@ -36,5 +37,4 @@ class ProductController extends \yii\web\Controller
             'model' => $model
         ]);
     }
-
 }

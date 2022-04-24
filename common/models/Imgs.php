@@ -30,6 +30,7 @@ class Imgs extends \yii\db\ActiveRecord
     {
         return [
             [['imgs'], 'string', 'max' => 255],
+            //[['imgs'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg', 'maxFiles' => 4,'checkExtensionByMimeType'=>false],
         ];
     }
 

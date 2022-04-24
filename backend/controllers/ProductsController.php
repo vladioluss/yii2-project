@@ -8,6 +8,7 @@ use app\models\ProductsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * ProductsController implements the CRUD actions for Products model.
@@ -131,5 +132,23 @@ class ProductsController extends Controller
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
+    }
+
+
+    public function actionUploadImg() {
+        $model = new UploadImgs();
+
+        var_dump("экшен");
+        die();
+
+        if (\Yii::$app->request->isPost) {
+            $model->image = UploadedFile::getInstances($model, 'image');
+
+            if ($model->uploadImage()) {
+                return;
+            }
+        }
+
+        return $this->render('create', ['model' => $model]);
     }
 }

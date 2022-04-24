@@ -2,8 +2,10 @@
 
 namespace frontend\controllers;
 
+use common\models\Category;
 use common\models\Products;
 
+use Faker\Factory;
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
@@ -273,5 +275,29 @@ class SiteController extends Controller
         return $this->render('search', [
             'items' => $items
         ]);
+    }
+
+    public function actionTest()
+    {
+        $faker = Factory::create();
+
+        for($i = 0; $i < 5; $i++) {
+            $Category = new Category();
+            $Category->name = $faker->company();
+            $Category->status = rand(0, 1);
+            $Category->save(false);
+        }
+
+        for($i = 0; $i < 100; $i++) {
+            $Products = new Products();
+            $Products->name = $faker->text(30);
+            $Products->description = $faker->text(rand(100, 200));
+            $Products->category = $faker->randomElement([1,2,3,4]);
+            $Products->price = $faker->randomFloat(4, 200, 4500);
+            $Products->status = rand(0, 1);
+            $Products->save(false);
+        }
+
+        die('Data generation is complete!');
     }
 }

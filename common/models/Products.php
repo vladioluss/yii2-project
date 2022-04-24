@@ -2,7 +2,6 @@
 
 namespace common\models;
 
-use common\models\Imgs;
 use common\models\Category;
 
 use yii\db\ActiveQuery;
@@ -16,7 +15,7 @@ use yii\db\ActiveRecord;
  * @property string|null $description
  * @property int|null $category
  * @property float|null $price
- * @property int|null $img
+ * @property string|null $img
  * @property int $status
  *
  * @property Category $category0
@@ -24,6 +23,9 @@ use yii\db\ActiveRecord;
  */
 class Products extends ActiveRecord
 {
+
+    public $image;
+
     /**
      * {@inheritdoc}
      */
@@ -39,11 +41,11 @@ class Products extends ActiveRecord
     {
         return [
             [['description'], 'string'],
-            [['category', 'img', 'status'], 'integer'],
+            [['category', 'status'], 'integer'],
             [['price'], 'number'],
             [['name'], 'string', 'max' => 255],
             [['category'], 'exist', 'skipOnError' => true, 'targetClass' => Category::className(), 'targetAttribute' => ['category' => 'id']],
-            [['img'], 'exist', 'skipOnError' => true, 'targetClass' => Imgs::className(), 'targetAttribute' => ['img' => 'id']],
+            //[['img'], 'exist', 'skipOnError' => true, 'targetClass' => Imgs::className(), 'targetAttribute' => ['img' => 'id']],
         ];
     }
 
@@ -81,5 +83,15 @@ class Products extends ActiveRecord
     public function getImg0()
     {
         return $this->hasOne(Imgs::class, ['id' => 'img']);
+    }
+
+
+    public function uploadImage() {
+        die('Зашло в метод');
+
+        foreach ($this->image as $file) {
+            $fileName = \Yii::$app->getSecurity()->generateRandomString(15);
+            $file->saveAs('imgs/'.$fileName.'.'.$file->extension);
+        }
     }
 }

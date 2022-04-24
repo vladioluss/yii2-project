@@ -12,7 +12,7 @@ use common\models\Products;
 class ProductsSearch extends Products
 {
     // Свойство
-    //public $category;
+    public $category;
 
     /**
      * {@inheritdoc}
@@ -20,10 +20,11 @@ class ProductsSearch extends Products
     public function rules()
     {
         return [
-            [['id', 'img', 'status'], 'integer'],
+            [['id', 'status'], 'integer'],
             [['name', 'description'], 'safe'],
             [['price'], 'number'],
             [['category.name'], 'safe']
+            //[['img'], 'file']
         ];
     }
 
